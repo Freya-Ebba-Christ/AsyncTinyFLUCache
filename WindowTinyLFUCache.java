@@ -21,12 +21,12 @@ class CacheEntry {
     }
 }
 
-public class WindowTinyLFUCache {
+public class AsyncWindowTinyLFUCache {
     private final int windowSize;
     private final Map<String, CacheEntry> cache;
     private final ExecutorService evictionExecutor;
 
-    public WindowTinyLFUCache(int windowSize) {
+    public AsyncWindowTinyLFUCache(int windowSize) {
         this.windowSize = windowSize;
         this.cache = new LinkedHashMap<>(windowSize, 0.75f, true) {
             @Override
@@ -83,7 +83,7 @@ public class WindowTinyLFUCache {
     }
 
     public static void main(String[] args) {
-        WindowTinyLFUCache cache = new WindowTinyLFUCache(3);
+        AsyncWindowTinyLFUCache cache = new AsyncWindowTinyLFUCache(3);
 
         cache.put("1", "One");
         cache.put("2", "Two");
