@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 27.02.2024
+Created on 29.01.2024
 
 <This software implements spike sorting and detection a la Quiroga: http://www.scholarpedia.org/article/Spike_sorting>
 It is based on the MCS Tutorial: https://mcspydatatools.readthedocs.io/en/latest/McsPy-Tutorial_DataAnalysis.html
