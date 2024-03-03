@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+/**
 """
 Created on 29.01.2024
 
@@ -20,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 @author: Freya Ebba Christ
 """
-
+**/
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
