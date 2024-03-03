@@ -3,9 +3,6 @@
 """
 Created on 29.01.2024
 
-<This software implements spike sorting and detection a la Quiroga: http://www.scholarpedia.org/article/Spike_sorting>
-It is based on the MCS Tutorial: https://mcspydatatools.readthedocs.io/en/latest/McsPy-Tutorial_DataAnalysis.html
-
 Copyright (C) <2024>  <Freya Ebba Christ>
 
 This program is free software: you can redistribute it and/or modify
